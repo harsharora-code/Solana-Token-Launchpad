@@ -1,8 +1,8 @@
 import { Launch } from "@prisma/client";
 
-export function  getLaunchStatus( 
+export function getLaunchStatus( 
     launch: Launch,
-    purchased: Number
+    purchased: number
 
 ): string {
 

@@ -69,5 +69,5 @@ model Purchase {
   userId            Int
   launchId          Int
   user              User @relation(fields: [userId], references: [id])
-  launch             Launch @relation(fields: [launchId], references: [id])
+  launch            Launch @relation(fields: [launchId], references: [id])
 }
